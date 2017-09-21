@@ -1,0 +1,112 @@
+/* Reset */
+html, body, div, h1, h2, h3, ul, li, p {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #392adb;
+	font-family: "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;
+	
+	-webkit-font-smoothing: antialiased;
+}
+
+.container {
+	position: absolute;
+	top: 15%;
+/*	width: 90%;
+	top: 15%;
+	padding: 0 5% 0 5%;*/
+}
+
+.container .main {
+	padding: 0 5% 0 5%;
+}
+
+.container h1 {
+	color: #012152;
+	font-size: 16vw;
+	font-weight: 900;
+}
+
+.container h3 {
+	margin: -3vw 0;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 0 0 5px;
+	color: #fff;
+	font-size: 3vw;
+	font-weight: lighter;
+}
+
+.projects {
+	position: relative;
+	margin-top: 7%;
+}
+
+.projects h3 {
+	color: #fff;
+	padding: 5%;
+	font-size: 3vw;
+	font-weight: 900;
+}
+
+
+.projects a, a:visited {
+	color: #012152;
+	font-size: 6vw;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+.projects .email_item li{
+	background-color: #2e23b0;
+	color: #fff;
+	font-size: 6vw;
+	text-decoration: none;
+	font-weight: 900;
+}
+
+.projects .email_item li:hover{
+	background-color: #2b20a5;
+}
+
+.projects li {
+	background-color: #392adb;
+	list-style: none;
+	padding: 2% 5% 1% 5%;
+}
+
+.projects li:hover {
+	background-color: #3221d2;
+}
+
+.projects h4 {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-weight: lighter;
+	margin-top: -1vw;
+	font-size: 2vw;
+}
+
+.footer{
+	background-color: #2e23b0;
+	padding: 5% 5% 3% 5%;
+	color: #fff;
+}
+
+.footer a, a:visited {
+	text-decoration: none;
+	color: #012152;
+}
+
+.footer a:hover {
+	color: #fff;
+}
+
+.footer li{
+	padding: 0 1%;
+	display: inline;
+	list-style: none;
+	text-decoration: none;
+	font-weight: 900;
+}
